@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Все сайты</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            width: 80%;
+            max-width: 600px;
+        }
+        
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px #000;
+        }
+        
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .btn-outlook {
+            background: linear-gradient(45deg, #0072C6, #00A4EF);
+        }
+        
+        .btn-tiktok {
+            background: linear-gradient(45deg, #000000, #FE2C55);
+        }
+        
+        .btn-funpay {
+            background: linear-gradient(45deg, #FF9500, #FF5E3A);
+        }
+        
+        .btn-mail {
+            background: linear-gradient(45deg, #6e48aa, #9d50bb);
+        }
+        
+        .separator {
+            margin: 25px 0;
+            text-align: center;
+        }
+        
+        .separator-text {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 5px 15px;
+            font-weight: bold;
+            color: #FF5E3A;
+            display: inline-block;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ссылки</h1>
+        
+        <div class="buttons">
+            <a href="https://outlook.live.com" class="btn btn-outlook">
+                <span class="icon">📧</span>
+                Outlook
+            </a>
+            
+            <a href="https://www.tiktok.com" class="btn btn-tiktok">
+                <span class="icon">🎵</span>
+                TikTok
+            </a>
+            
+            <a href="http://91.214.78.42:9090/info" class="btn btn-mail">
+                <span class="icon">📭</span>
+                Почта
+            </a>
+        </div>
+        
+        <div class="separator">
+            <div class="separator-text">Продажа аккаунтов</div>
+        </div>
+        
+        <div class="buttons">
+            <a href="https://funpay.com" class="btn btn-funpay">
+                <span class="icon">💰</span>
+                FunPay
+            </a>
+        </div>
+    </div>
+</body>
+</html>
